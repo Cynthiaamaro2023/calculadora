@@ -1,0 +1,33 @@
+/* Estilos CSS para la calculadora */
+body {
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2a1589;
+    border-radius: 5px;
+    background-color: #ce1189;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    padding: 05px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.calculator button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
